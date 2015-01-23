@@ -1,0 +1,137 @@
+/* GENERAL formatting */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #ffffff;
+}
+
+h1, h2, h3 {
+	text-shadow: #fff 0px 1px 1px;
+}
+
+.tagline {
+	font-weight: bold;
+}
+
+/* TEXT formatting */
+
+.normal {
+	font-weight: normal;
+}
+
+.m_green {
+	color: #8CE463;
+}
+
+/* HEADER formatting */
+
+#header {
+	background: url('../images/header_bg.jpg') repeat-x;
+	height: 255px;
+	width: 100%;
+}
+
+.marah_logo {
+	float: right;
+	overflow-x: hidden;
+	padding: 140px 100px 0px 0px;
+}
+
+#separate {
+	display: block;
+	position: absolute;
+	width: 634px;
+	padding: 0px;
+	padding-left: 300px;
+	margin:  -70px auto 0 auto;
+}
+
+/* MENU formatting */
+
+#menu_list {
+	padding: 30px 0 0 0;
+	margin-left: -5px;
+}
+
+ul#menu_list {
+	list-style: none;
+}
+
+ul#menu_list li {
+	padding: 5px 0;
+	height: 43px;
+	width: 190px;
+}
+
+ul#menu_list li a {
+	background: url('../images/menu_item.png') 0 -45px no-repeat;
+	display: block;
+	height: 43px;
+	width: 190px;
+	padding: 0px 5px 0px 10px;
+}
+
+ul#menu_list li a:hover {
+	background-position: 0 -88px;
+}
+
+ul#menu_list li.current a {
+	background-position: 0 0;
+	width: 224px;
+}
+
+ul#menu_list li a img {
+	padding-top: 15px;
+}
+
+ul#menu_list li.current a img {
+	padding-top: 13px;
+}
+
+/* CONTENT formatting */
+
+#content {
+	margin-top: -20px;
+	padding: 0px 0px 70px 0px;
+	display: block;
+}
+
+div.msg_body {
+	position: absolute;
+	width: 700px;
+}
+
+#learnmore {
+	margin-top: 30px;
+	height: 46px;
+	width: 180px;
+}
+
+#learnmore a {
+	display: block;
+	background: url('../images/learnmore.jpg') 0 0 no-repeat;
+	position: absolute;
+	text-indent: -9999px;
+	height: 46px;
+	width: 180px;
+}
+
+#learnmore a:hover {
+	background-position: 0 -46px;
+}
+
+ul#product_list li {
+	padding:  5px 0;
+}
+
+/* FOOTER formatting */
+
+#close {
+	padding-top: 30px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 14px;
+	clear: both;
+}
